@@ -1,0 +1,51 @@
+{
+    "FileVersion":  3,
+    "Version":  1,
+    "VersionName":  "1.0.0",
+    "FriendlyName":  "Titan Twin Lite",
+    "Description":  "Free MQTT data binding for Unreal Engine digital twins: stream MQTT data into Blueprint variables, UMG widgets and Anim Instances. Pro version (OPC UA, HTTP, alarms, commands, history) on Fab.",
+    "Category":  "Digital Twin",
+    "CreatedBy":  "TitanSim",
+    "CreatedByURL":  "https://qenvaroworks.com/",
+    "DocsURL":  "https://qenvaroworks.com/",
+    "SupportURL":  "https://qenvaroworks.com/",
+    "CanContainContent":  true,
+    "Installed":  false,
+    "SupportedTargetPlatforms":  [
+                                     "Win64"
+                                 ],
+    "Modules":  [
+                    {
+                        "Name":  "TitanTwinRuntime",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64"
+                                              ]
+                    },
+                    {
+                        "Name":  "TitanTwinDataSource",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64"
+                                              ]
+                    },
+                    {
+                        "Name":  "TitanTwinBinding",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64"
+                                              ]
+                    },
+                    {
+                        "Name":  "TitanTwinMqtt",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64"
+                                              ]
+                    }
+                ]
+}
