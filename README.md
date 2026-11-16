@@ -4,6 +4,8 @@ Free, open-source MQTT data binding for Unreal Engine digital twins.
 
 Stream live MQTT data into Unreal: drive Blueprint variables, UMG text and Anim Instance variables from real or simulated devices — no Blueprint polling code.
 
+> **Need OPC UA, HTTP, alarms, commands or history replay?** Get the full version, Titan Twin Pro: https://huahua1.itch.io/titan-twin
+
 ## Features
 - Native MQTT 3.1.1 client (TLS, QoS 0/1/2, auto-reconnect), networking on a background thread
 - JSON / scalar payload parsing, topic → entity mapping
